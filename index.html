@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="./start/assets/css/reset.css" />
     <link rel="stylesheet" href="./start/assets/css/all.css" />
     <link rel="stylesheet" href="./start/assets/css/style.css" />
+
     <title>Corso Web Developer - Epicode School</title>
   </head>
 
   <body>
     <header>
-      <img src="./start/assets/images/logo.png" alt="Logo Epicode" />
+      <img id="logo" src="./start/assets/images/logo.png" alt="Logo Epicode" />
     </header>
 
     <main>
@@ -46,9 +47,7 @@
           <h2>Lavora dove vuoi</h2>
           <p>LAvora da casa,in riva al mare o in montagna.</p>
 
-          <div id="image-cicle">
-            <img src="./start/assets/images/notebook.jpg" alt="Notebook" />
-          </div>
+          <div id="image--circle"></div>
         </article>
 
         <article>
@@ -66,14 +65,17 @@
       </section>
 
       <section id="sec--garanty">
-        <h2 id="title--garanty">Epicode garantisce</h2>
-        <blockquote>
-          "3 mesi intensivi di corso che cambieranno radicalmente la tua vita".
-        </blockquote>
-        <address>
-          <p><strong>Mario Rossi</strong></p>
-          <p>CEO, Epicode</p>
-        </address>
+        <div>
+          <h2 id="title--garanty">Epicode garantisce</h2>
+
+          <blockquote>
+            "3 mesi intensivi di corso che cambieranno radicalmente la tua
+            vita".
+          </blockquote>
+          <address>
+            <p><strong>Mario Rossi</strong><br />CEO, Epicode</p>
+          </address>
+        </div>
       </section>
 
       <section id="sec--card">
@@ -103,11 +105,14 @@
 
     <footer>
       <h2>contattachi</h2>
-      <p>(+39)11223456</p>
-      <p>info@epicode.school</p>
+      <p><a href="tel:+3911223456">(+39)11223456</a></p>
+      <p><a href="mailto:info@epicode.school">info@epicode.school</a></p>
       <p>via Appia1 - 00100 Roma(RM)</p>
       <hr />
-      <p>&copy;2021. Immagini di <a href="https://pixabay.com/">Pixabay</a>.</p>
+      <p>
+        &copy;2021. Immagini di
+        <a href="https://pixabay.com/" target="_blank">Pixabay</a>.
+      </p>
     </footer>
   </body>
 </html>

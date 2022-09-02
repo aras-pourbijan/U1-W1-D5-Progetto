@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body{
+
+    color: #393D41;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65rem;
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    box-sizing: border-box;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #f04c2f;
+    color: white;
+    border-radius: 5px;
+    border-style: hidden;
+    padding: 12px 30px;
+    margin-top: 20px ;
+    
+}
+
+h1{
+    color: #25A2C3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 2.5rem;
+    padding-block: 20px ;
+    font-size: 2.85rem;
+    margin-inline: 10vh ;
+    padding-top: 10vh;
+
+}
+h2{
+    color: #25A2C3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5rem;
+    padding-block: 40px 0px ;
+    text-align: center;
+    
+
+
+}
+
+section{
+    padding-bottom: 10px;
+}
+
+p{
+    padding-block: 20px;
+    padding-inline: 35px ;
+    margin-block: 20px 10px ;
+    
+}
+
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    height: 15vh;
+    align-items: center;
+}
+
+#logo{
+    width: 150px;
+}
+
+
+main{
+    padding-block: 30px  ;
+
+  
+}
+
+#sec--register{
+    background-image: url(../images/banner.jpg);
+    background-size:cover;
+    height:60vh;  
+}
+
+#image--circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display:inline-block;
+    background-image: url(../images/notebook.jpg);
+    background-size:cover;
+}
+
+#sec--garanty{
+    background-color: #f04c2f;
+}
+
+#sec--garanty *{
+    color: white;
+    
+}
+
+blockquote{
+    color: e22d0e  ;
+    font-style: italic;
+}
+
+#
+
+
+
+main img{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+}
+
+
+footer{
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    
+
+}
+
+footer h2{
+    color: white;
+}
+
+footer a:link{
+    color: #c8e7f0;
+}
