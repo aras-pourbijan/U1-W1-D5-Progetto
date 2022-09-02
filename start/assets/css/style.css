@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
-
+* {
+    box-sizing: border-box;
+}
 body{
 
     color: #393D41;
@@ -34,8 +36,8 @@ h1{
     font-size: 2.85rem;
     margin-inline: 10vh ;
     padding-top: 10vh;
-
 }
+
 h2{
     color: #25A2C3;
     font-family: 'Montserrat', sans-serif;
@@ -43,9 +45,6 @@ h2{
     line-height: 1.5rem;
     padding-block: 30px 0px ;
     text-align: center;
-    
-
-
 }
 
 section{
@@ -81,13 +80,13 @@ header{
     height:45vh;  
 }
 
-#image--circle{
+#image--circle {
     width: 250px;
     height: 250px;
     border-radius: 100%;
-    display:inline-block;
+    display: inline-block;
     background-image: url(../images/notebook.jpg);
-    background-size:cover;
+    background-size: cover;
 }
 
 section hr{
@@ -96,7 +95,7 @@ section hr{
 
 #sec--garanty{
     background-color: #f04c2f;
-    height: 30vh;
+    height: 35vh;
     align-items: center;
     padding-top: 5%;
     
@@ -136,10 +135,9 @@ strong{
 
 
 main img{
-    width: 80%;
+    width: 100%;
     align-items: center;
     text-align: center;
-    padding: auto;
 }
 
 
@@ -148,8 +146,8 @@ footer{
     color: #c8e7f0;
     align-items: center;
     line-height: 1.7rem;
-    height: 30vh;
-   
+    height:280px;
+   margin: 0%;
        
 
 }
@@ -174,3 +172,6 @@ footer hr{
 #copy{
     font-size: small;
 }
+
+/* 
+allafine non sono riuscito a risolvere movimento orizontale della pagina */
