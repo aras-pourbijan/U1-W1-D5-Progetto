@@ -9,7 +9,7 @@ body{
     line-height: 1.65rem;
     width: 100%;
     height: 100%;
-    text-align:center;
+    text-align: center;
    
 }
 
@@ -20,9 +20,9 @@ button{
     color: white;
     border-radius: 5px;
     border-style: hidden;
-    padding: 12px 30px;
+    padding: 15px 30px;
     margin-top: 20px ;
-    
+       
 }
 
 h1{
@@ -41,7 +41,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     line-height: 1.5rem;
-    padding-block: 40px 0px ;
+    padding-block: 30px 0px ;
     text-align: center;
     
 
@@ -64,12 +64,12 @@ header{
     display: flex;
     justify-content: center;
     padding: auto;
-    height: 15vh;
+    height: 14vh;
     align-items: center;
 }
 
 #logo{
-    width: 170px;
+    width: 150px;
 }
 
 
@@ -78,7 +78,7 @@ header{
 #sec--register{
     background-image: url(../images/banner.jpg);
     background-size:cover;
-    height:55vh;  
+    height:45vh;  
 }
 
 #image--circle{
@@ -96,9 +96,9 @@ section hr{
 
 #sec--garanty{
     background-color: #f04c2f;
-    height: 40vh;
+    height: 30vh;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 5%;
     
 }
 
@@ -107,7 +107,7 @@ section hr{
     
 }
 #sec--garanty h2{
-    font-size: 200%;
+    font-size: 150%;
 }
 
 blockquote{
@@ -148,6 +148,7 @@ footer{
     color: #c8e7f0;
     align-items: center;
     line-height: 1.7rem;
+    height: 30vh;
    
        
 
