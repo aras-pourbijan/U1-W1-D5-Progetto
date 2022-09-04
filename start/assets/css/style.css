@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
+
+
+
+      /* GENERAL */
 * {
     box-sizing: border-box;
 }
@@ -12,7 +16,31 @@ body{
     width: 100%;
     height: 100%;
     text-align: center;
+    
+}
+
+h1,h2{
+    color: #25A2C3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+h1{
+    line-height: 2.5rem;
+    font-size: 2.85rem;
+    padding-block: 10vh 5vh;
+}
+
+h2{
+    line-height: 1.5rem;
+    padding-block: 5vh 0vh ;
    
+}
+
+p{
+    margin: 2vh 3vh;
+
 }
 
 button{
@@ -22,41 +50,10 @@ button{
     color: white;
     border-radius: 5px;
     border-style: hidden;
-    padding: 15px 30px;
-    margin-top: 20px ;
-       
+    padding: 12px 30px;         
 }
 
-h1{
-    color: #25A2C3;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    line-height: 2.5rem;
-    padding-block: 20px ;
-    font-size: 2.85rem;
-    margin-inline: 10vh ;
-    padding-top: 10vh;
-}
-
-h2{
-    color: #25A2C3;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    line-height: 1.5rem;
-    padding-block: 30px 0px ;
-    text-align: center;
-}
-
-section{
-    
-    margin-bottom: 20px;
-}
-
-p, blockquote{
-    padding-block: 20px;
-    padding-inline: 35px ;  
-}
-
+        /* HEADER */
 
 header{
     background-color: black;
@@ -72,21 +69,26 @@ header{
 }
 
 
-
+        /* MAIN */
 
 #sec--register{
     background-image: url(../images/banner.jpg);
     background-size:cover;
-    height:45vh;  
+    height:50vh; 
+    align-items: center; 
 }
 
+
+
+
 #image--circle {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     border-radius: 100%;
     display: inline-block;
     background-image: url(../images/notebook.jpg);
     background-size: cover;
+    margin-block: 3vh   ;
 }
 
 section hr{
@@ -98,25 +100,31 @@ section hr{
     height: 35vh;
     align-items: center;
     padding-top: 5%;
-    
+   
 }
+
 
 #sec--garanty *{
+
     color: white;
-    
-}
-#sec--garanty h2{
-    font-size: 150%;
 }
 
-blockquote{
-    color: #e22d0e  ;
+#sec--garanty h2{
+
+    font-size: 150%;
+    
+}
+
+q{
     font-style:italic;
 }
 
+address{
+    margin-top: 2vh;
+}
 
-strong{
-    font: size 2rem;
+h3{ 
+    font-size: 1.4rem;
 }
 
 .card{
@@ -126,13 +134,7 @@ strong{
     display: inline-block;
     margin-block: 25px 10px;
     overflow: hidden;
-
 }
-
-.card img{
-    width: 100%;
-}
-
 
 main img{
     width: 100%;
@@ -141,25 +143,24 @@ main img{
 }
 
 
+    /* footer */
+
+
 footer{
     background-color: #25a2c3;
-    color: #c8e7f0;
     align-items: center;
     line-height: 1.7rem;
-    height:280px;
-   margin: 0%;
-       
+    margin-top: 5vh;
+    height: 500px;  
+}
 
+footer *{
+    color: white;
 }
 
 footer h2{
-    color: white;
+    
     font-size: 150%;
-}
-
-footer a:link{
-    color: #c8e7f0;
-   
 }
 
 
@@ -172,6 +173,4 @@ footer hr{
 #copy{
     font-size: small;
 }
-
-/* 
-allafine non sono riuscito a risolvere movimento orizontale della pagina */
+ 
